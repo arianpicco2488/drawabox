@@ -30,8 +30,8 @@ export default function Dashboard() {
   }));
 
   return (
-    <div className="h-screen flex flex-col bg-background text-foreground">
-      <div className="max-w-md mx-auto w-full flex flex-col flex-1 min-h-0">
+    <div className="min-h-screen flex flex-col bg-background text-foreground">
+      <div className="max-w-md md:max-w-2xl mx-auto w-full flex flex-col flex-1 min-h-0">
         <AppHeader
           title="Drawing"
           titleAccent="Warmups"
@@ -39,7 +39,7 @@ export default function Dashboard() {
           icon={<PencilIcon className="text-[#e67e22]" size={32} />}
         />
 
-        <div className="flex-1 min-h-0 overflow-y-auto px-5 pb-8">
+        <div className="flex-1 min-h-0 overflow-y-auto px-5 md:px-8 pb-8">
           <div className="flex flex-col gap-3">
             {lessons.map((lesson) => (
               <LessonCard
@@ -51,7 +51,7 @@ export default function Dashboard() {
             ))}
           </div>
 
-          <div className="mt-8 space-y-3">
+          <div className="mt-8 space-y-3 md:max-w-sm">
             <button
               onClick={() => navigate('/warmup')}
               className="w-full h-14 rounded-2xl bg-[#e67e22] hover:bg-[#cf6d17] active:scale-[0.99] text-white font-semibold text-[1rem] tracking-tight transition-all duration-200 flex items-center justify-center gap-2.5 shadow-sm"

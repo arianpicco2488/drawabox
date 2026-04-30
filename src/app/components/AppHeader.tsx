@@ -24,7 +24,7 @@ export function AppHeader({
   const isDark = resolvedTheme === 'dark';
 
   return (
-    <header className="flex-shrink-0 px-5 pt-10 pb-5">
+    <header className="flex-shrink-0 px-5 md:px-8 pt-10 pb-5">
       <div className="flex items-center gap-3 mb-3">
         {showBack ? (
           <button
@@ -60,7 +60,7 @@ export function AppHeader({
       </div>
       <p
         className={`text-muted-foreground text-[0.8125rem] leading-relaxed ${
-          subtitleAlign === 'center' ? 'text-center' : 'max-w-[85%]'
+          subtitleAlign === 'center' ? 'text-center' : 'max-w-[85%] md:max-w-lg'
         }`}
       >
         {subtitle}

@@ -33,7 +33,7 @@ export function ExerciseModal({ isOpen, onClose, exercise }: ExerciseModalProps)
 
   return (
     <Dialog open={isOpen} onOpenChange={handleClose}>
-      <DialogContent className="bg-card border border-border text-foreground max-w-sm mx-4 rounded-2xl shadow-lg">
+      <DialogContent className="bg-card border border-border text-foreground max-w-sm mx-4 md:mx-auto rounded-2xl shadow-lg">
         {isCountingDown ? (
           <div className="py-8">
             <DrawingCountdown onComplete={() => setIsCountingDown(false)} />

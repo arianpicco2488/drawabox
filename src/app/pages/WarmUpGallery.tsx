@@ -21,7 +21,7 @@ export default function WarmUpGallery() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <div className="max-w-md mx-auto min-h-screen relative">
+      <div className="max-w-md md:max-w-4xl mx-auto min-h-screen relative">
         <AppHeader
           title="Warm-Up"
           titleAccent="Gallery"
@@ -31,8 +31,8 @@ export default function WarmUpGallery() {
           onBack={() => navigate('/')}
         />
 
-        <div className="px-5 pb-10">
-          <div className="grid grid-cols-3 gap-2.5">
+        <div className="px-5 md:px-8 pb-10">
+          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2.5 md:gap-3">
             {allExercises.map((exercise, index) => (
               <button
                 key={index}

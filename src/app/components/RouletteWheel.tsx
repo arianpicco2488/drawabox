@@ -11,13 +11,20 @@ export interface RouletteExercise {
 interface RouletteWheelProps {
   exercises: RouletteExercise[];
   onResult: (exercise: RouletteExercise) => void;
+  size?: number;
 }
 
-export function RouletteWheel({ exercises, onResult }: RouletteWheelProps) {
+export function RouletteWheel({ exercises, onResult, size }: RouletteWheelProps) {
   const [rotation, setRotation] = useState(0);
   const [isSpinning, setIsSpinning] = useState(false);
 
   const segmentAngle = 360 / exercises.length;
+  const wheelSize = size ?? 288;
+  const radius = wheelSize / 2;
+  const labelOffset = Math.round(radius * 0.347);
+  const labelWidth = Math.round(radius * 0.625);
+  const hubSize = Math.round(wheelSize * 0.194);
+  const labelFontSize = Math.round(wheelSize * 0.031);
 
   const handleSpin = () => {
     if (isSpinning) return;
@@ -44,7 +51,7 @@ export function RouletteWheel({ exercises, onResult }: RouletteWheelProps) {
         <div className="w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-t-[16px] border-t-[#e67e22]" />
       </div>
 
-      <div className="relative w-72 h-72">
+      <div className="relative" style={{ width: wheelSize, height: wheelSize }}>
         <motion.div
           className="w-full h-full rounded-full relative overflow-hidden border-2 border-[#e5e2dc] shadow-sm"
           style={{
@@ -61,17 +68,17 @@ export function RouletteWheel({ exercises, onResult }: RouletteWheelProps) {
                 key={index}
                 className="absolute top-1/2 left-1/2 origin-left"
                 style={{
-                  transform: `rotate(${angle}deg) translateX(50px)`,
-                  width: '90px'
+                  transform: `rotate(${angle}deg) translateX(${labelOffset}px)`,
+                  width: labelWidth
                 }}
               >
-                <p className="text-[#2b2b2b] text-[9px] font-medium leading-tight">
+                <p className="text-[#2b2b2b] font-medium leading-tight" style={{ fontSize: labelFontSize }}>
                   {exercise.name}
                 </p>
               </div>
             );
           })}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-14 h-14 rounded-full bg-white border-2 border-[#e67e22]/30 flex items-center justify-center shadow-sm">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white border-2 border-[#e67e22]/30 flex items-center justify-center shadow-sm" style={{ width: hubSize, height: hubSize }}>
             <div className="text-[#e67e22] text-[0.625rem] font-bold text-center leading-tight">
               WARM<br/>UP
             </div>
