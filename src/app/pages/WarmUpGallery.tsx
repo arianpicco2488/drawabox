@@ -21,23 +21,24 @@ export default function WarmUpGallery() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
-      <div className="max-w-md md:max-w-4xl mx-auto min-h-screen relative">
+      <div className="max-w-[680px] mx-auto min-h-screen relative">
         <AppHeader
           title="Warm-Up"
           titleAccent="Gallery"
-          subtitle="Browse all exercises"
+          subtitle={`${allExercises.length} exercises across 7 lessons — tap any to preview`}
           subtitleAlign="center"
+          subtitleClassName="text-sm md:text-base"
           showBack
           onBack={() => navigate('/')}
         />
 
         <div className="px-5 md:px-8 pb-10">
-          <div className="grid grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-2.5 md:gap-3">
+          <div className="flex flex-wrap justify-center gap-3 md:gap-4">
             {allExercises.map((exercise, index) => (
               <button
                 key={index}
                 onClick={() => handleExerciseClick(exercise)}
-                className="group relative aspect-square rounded-md overflow-hidden border border-border bg-card hover:border-[#e49944] hover:shadow-md transition-all duration-200"
+                className="group relative w-36 h-36 md:w-44 md:h-44 rounded-xl overflow-hidden border border-border bg-card hover:border-[#e49944] hover:shadow-md transition-all duration-200 flex-shrink-0"
               >
                 <img
                   src={exercise.imageUrl}
@@ -45,11 +46,11 @@ export default function WarmUpGallery() {
                   className="absolute inset-0 w-full h-full object-cover opacity-40 group-hover:opacity-50 transition-opacity"
                 />
                 <div className="absolute inset-0 bg-card/60" />
-                <div className="relative h-full p-2.5 flex flex-col justify-between">
-                  <span className="inline-flex w-fit items-center rounded-md bg-[#e49944]/12 text-[#e49944] text-[0.6875rem] font-semibold px-1.5 py-0.5">
+                <div className="relative h-full p-3 flex flex-col justify-between">
+                  <span className="inline-flex w-fit items-center rounded-md bg-[#e49944]/12 text-[#e49944] text-xs font-semibold px-1.5 py-0.5">
                     L{exercise.lesson}
                   </span>
-                  <h3 className="text-foreground text-[0.8125rem] font-medium leading-tight line-clamp-3 text-left">
+                  <h3 className="text-foreground text-sm font-semibold leading-snug line-clamp-3 text-left">
                     {exercise.name}
                   </h3>
                 </div>
