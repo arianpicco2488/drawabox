@@ -29,13 +29,13 @@ export function AppHeader({
         {showBack ? (
           <button
             onClick={onBack}
-            className="flex items-center justify-center w-11 h-11 -ml-1 rounded-xl hover:bg-[#e67e22]/8 active:bg-[#e67e22]/12 transition-colors"
+            className="flex items-center justify-center w-11 h-11 -ml-1 rounded-xl hover:bg-[#e49944]/8 active:bg-[#e49944]/12 transition-colors"
             aria-label="Back"
           >
-            <ArrowLeft className="w-6 h-6 text-[#e67e22]" strokeWidth={2} />
+            <ArrowLeft className="w-6 h-6 text-[#e49944]" strokeWidth={2} />
           </button>
         ) : icon ? (
-          <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-[#e67e22]/10">
+          <div className="flex items-center justify-center w-12 h-12 rounded-xl bg-[#e49944]/10">
             {icon}
           </div>
         ) : null}
@@ -44,7 +44,7 @@ export function AppHeader({
             showBack ? 'text-center' : ''
           }`}
         >
-          {title} <span className="text-[#e67e22]">{titleAccent}</span>
+          {title} <span className="text-[#e49944]">{titleAccent}</span>
         </h1>
         <button
           onClick={() => setTheme(isDark ? 'light' : 'dark')}

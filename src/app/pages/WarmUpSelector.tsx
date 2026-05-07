@@ -74,7 +74,7 @@ export default function WarmUpSelector() {
               </p>
               <button
                 onClick={() => navigate('/')}
-                className="h-12 px-6 rounded-xl bg-[#e67e22] hover:bg-[#cf6d17] text-white font-semibold text-[0.9375rem] transition-colors"
+                className="h-12 px-6 rounded-md bg-[#e49944] hover:bg-[#c47c20] text-white font-bold text-[0.875rem] uppercase tracking-[0.06em] transition-colors"
               >
                 Go to Dashboard
               </button>
@@ -108,14 +108,14 @@ export default function WarmUpSelector() {
                 <div className="grid grid-cols-2 gap-2.5">
                   <button
                     onClick={() => setShowCountdown(true)}
-                    className="h-11 rounded-xl bg-[#e67e22] hover:bg-[#cf6d17] text-white font-semibold text-[0.9375rem] flex items-center justify-center gap-2"
+                    className="h-11 rounded-md bg-[#e49944] hover:bg-[#c47c20] text-white font-bold text-[0.875rem] uppercase tracking-[0.06em] flex items-center justify-center gap-2 transition-colors"
                   >
                     <Play className="w-4 h-4" fill="currentColor" />
                     Start Drawing
                   </button>
                   <button
                     onClick={handleSpinAgain}
-                    className="h-11 rounded-xl bg-card border border-[#e67e22] text-[#e67e22] font-semibold text-[0.9375rem] flex items-center justify-center gap-2 hover:bg-[#e67e22]/5 transition-colors"
+                    className="h-11 rounded-md bg-transparent border-2 border-[#e49944] text-[#e49944] font-bold text-[0.875rem] uppercase tracking-[0.06em] flex items-center justify-center gap-2 hover:bg-[#e49944] hover:text-[#1a1a1a] transition-colors"
                   >
                     <RotateCcw className="w-4 h-4" />
                     Spin Again
@@ -135,7 +135,7 @@ export default function WarmUpSelector() {
             <div className="md:flex-1 px-5 md:px-0 pb-8 mt-6 md:mt-0">
               <div className="text-center md:text-left">
                 <div className="inline-flex items-center gap-2 bg-card/80 px-4 py-2.5 rounded-full border border-border">
-                  <div className="w-2 h-2 rounded-full bg-[#e67e22]" />
+                  <div className="w-2 h-2 rounded-full bg-[#e49944]" />
                   <span className="text-[0.8125rem] text-muted-foreground">
                     <span className="font-semibold text-foreground">{wheelExercises.length}</span> exercises from {completedLessonIds.length} lesson{completedLessonIds.length === 1 ? '' : 's'}
                   </span>

@@ -36,7 +36,7 @@ export default function Dashboard() {
           title="Drawing"
           titleAccent="Warmups"
           subtitle="Complete your daily lessons. Select completed lessons to spin the wheel."
-          icon={<PencilIcon className="text-[#e67e22]" size={32} />}
+          icon={<PencilIcon className="text-[#e49944]" size={32} />}
         />
 
         <div className="flex-1 min-h-0 overflow-y-auto px-5 md:px-8 pb-8">
@@ -54,14 +54,14 @@ export default function Dashboard() {
           <div className="mt-8 space-y-3 md:max-w-sm">
             <button
               onClick={() => navigate('/warmup')}
-              className="w-full h-14 rounded-2xl bg-[#e67e22] hover:bg-[#cf6d17] active:scale-[0.99] text-white font-semibold text-[1rem] tracking-tight transition-all duration-200 flex items-center justify-center gap-2.5 shadow-sm"
+              className="w-full h-14 rounded-lg bg-[#e49944] hover:bg-[#c47c20] active:scale-[0.99] text-white font-bold text-[0.875rem] uppercase tracking-[0.06em] transition-all duration-200 flex items-center justify-center gap-2.5 shadow-sm"
             >
               <PencilIcon className="text-white" size={28} />
               <span>Warm Up</span>
             </button>
             <button
               onClick={() => navigate('/gallery')}
-              className="w-full h-12 rounded-xl bg-card hover:bg-secondary text-foreground font-medium text-[0.9375rem] border border-border transition-colors flex items-center justify-center"
+              className="w-full h-12 rounded-lg bg-transparent hover:bg-secondary text-[#e49944] font-semibold text-[0.875rem] uppercase tracking-[0.06em] border-2 border-[#e49944] transition-colors flex items-center justify-center"
             >
               Warm-Up Gallery
             </button>

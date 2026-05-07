@@ -48,15 +48,15 @@ export function RouletteWheel({ exercises, onResult, size }: RouletteWheelProps)
   return (
     <div className="flex flex-col items-center gap-8">
       <div className="relative">
-        <div className="w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-t-[16px] border-t-[#e67e22]" />
+        <div className="w-0 h-0 border-l-[10px] border-l-transparent border-r-[10px] border-r-transparent border-t-[16px] border-t-[#e49944]" />
       </div>
 
       <div className="relative" style={{ width: wheelSize, height: wheelSize }}>
         <motion.div
-          className="w-full h-full rounded-full relative overflow-hidden border-2 border-[#e5e2dc] shadow-sm"
+          className="w-full h-full rounded-full relative overflow-hidden border-2 border-[#383838] shadow-lg"
           style={{
             rotate: rotation,
-            background: 'conic-gradient(from 0deg, #f5f5f4 0deg, #e7e5e4 22.5deg, #f5f5f4 45deg, #e7e5e4 67.5deg, #f5f5f4 90deg, #e7e5e4 112.5deg, #f5f5f4 135deg, #e7e5e4 157.5deg, #f5f5f4 180deg, #e7e5e4 202.5deg, #f5f5f4 225deg, #e7e5e4 247.5deg, #f5f5f4 270deg, #e7e5e4 292.5deg, #f5f5f4 315deg, #e7e5e4 337.5deg)'
+            background: 'conic-gradient(from 0deg, #2e2e2e 0deg, #242424 22.5deg, #2e2e2e 45deg, #242424 67.5deg, #2e2e2e 90deg, #242424 112.5deg, #2e2e2e 135deg, #242424 157.5deg, #2e2e2e 180deg, #242424 202.5deg, #2e2e2e 225deg, #242424 247.5deg, #2e2e2e 270deg, #242424 292.5deg, #2e2e2e 315deg, #242424 337.5deg)'
           }}
           animate={{ rotate: rotation }}
           transition={{ duration: 4, ease: "easeOut" }}
@@ -72,14 +72,14 @@ export function RouletteWheel({ exercises, onResult, size }: RouletteWheelProps)
                   width: labelWidth
                 }}
               >
-                <p className="text-[#2b2b2b] font-medium leading-tight" style={{ fontSize: labelFontSize }}>
+                <p className="text-[#e8e8e8] font-medium leading-tight" style={{ fontSize: labelFontSize }}>
                   {exercise.name}
                 </p>
               </div>
             );
           })}
-          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-white border-2 border-[#e67e22]/30 flex items-center justify-center shadow-sm" style={{ width: hubSize, height: hubSize }}>
-            <div className="text-[#e67e22] text-[0.625rem] font-bold text-center leading-tight">
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rounded-full bg-[#1a1a1a] border-2 border-[#e49944]/50 flex items-center justify-center shadow-sm" style={{ width: hubSize, height: hubSize }}>
+            <div className="text-[#e49944] text-[0.625rem] font-bold text-center leading-tight uppercase tracking-wide">
               WARM<br/>UP
             </div>
           </div>
@@ -89,7 +89,7 @@ export function RouletteWheel({ exercises, onResult, size }: RouletteWheelProps)
       <button
         onClick={handleSpin}
         disabled={isSpinning}
-        className="h-12 px-8 rounded-xl bg-[#e67e22] hover:bg-[#cf6d17] disabled:opacity-50 disabled:cursor-not-allowed text-white font-semibold text-[0.9375rem] transition-colors"
+        className="h-12 px-8 rounded-md bg-[#e49944] hover:bg-[#c47c20] disabled:opacity-50 disabled:cursor-not-allowed text-white font-bold text-[0.875rem] uppercase tracking-[0.06em] transition-colors"
       >
         {isSpinning ? 'Spinning…' : 'Spin'}
       </button>

@@ -21,7 +21,7 @@ export function LessonCard({ lessonNumber, imageUrl, title }: LessonCardProps) {
       onClick={handleClick}
       className={`relative w-full min-h-[80px] overflow-hidden rounded-xl text-left transition-all duration-200 ${
         isCompleted
-          ? 'border border-[#e67e22]/50 bg-card shadow-sm ring-1 ring-[#e67e22]/20'
+          ? 'border border-[#e49944]/50 bg-card shadow-sm ring-1 ring-[#e49944]/20'
           : 'border border-border bg-card hover:border-border/70 hover:shadow-sm'
       }`}
     >
@@ -43,7 +43,7 @@ export function LessonCard({ lessonNumber, imageUrl, title }: LessonCardProps) {
           <Checkbox
             checked={isCompleted}
             onCheckedChange={() => {}}
-            className="pointer-events-none border-border data-[state=checked]:bg-[#e67e22] data-[state=checked]:border-[#e67e22] size-5 rounded-md"
+            className="pointer-events-none border-border data-[state=checked]:bg-[#e49944] data-[state=checked]:border-[#e49944] size-5 rounded-md"
           />
         </span>
       </div>

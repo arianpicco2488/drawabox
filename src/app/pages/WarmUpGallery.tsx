@@ -37,7 +37,7 @@ export default function WarmUpGallery() {
               <button
                 key={index}
                 onClick={() => handleExerciseClick(exercise)}
-                className="group relative aspect-square rounded-xl overflow-hidden border border-border bg-card hover:border-border/70 hover:shadow-sm transition-all duration-200"
+                className="group relative aspect-square rounded-md overflow-hidden border border-border bg-card hover:border-[#e49944] hover:shadow-md transition-all duration-200"
               >
                 <img
                   src={exercise.imageUrl}
@@ -46,7 +46,7 @@ export default function WarmUpGallery() {
                 />
                 <div className="absolute inset-0 bg-card/60" />
                 <div className="relative h-full p-2.5 flex flex-col justify-between">
-                  <span className="inline-flex w-fit items-center rounded-md bg-[#e67e22]/12 text-[#e67e22] text-[0.6875rem] font-semibold px-1.5 py-0.5">
+                  <span className="inline-flex w-fit items-center rounded-md bg-[#e49944]/12 text-[#e49944] text-[0.6875rem] font-semibold px-1.5 py-0.5">
                     L{exercise.lesson}
                   </span>
                   <h3 className="text-foreground text-[0.8125rem] font-medium leading-tight line-clamp-3 text-left">
@@ -54,7 +54,7 @@ export default function WarmUpGallery() {
                   </h3>
                 </div>
                 <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity bg-black/5">
-                  <div className="rounded-full bg-[#e67e22] p-2 shadow-sm">
+                  <div className="rounded-full bg-[#e49944] p-2 shadow-sm">
                     <Grid3x3 className="w-4 h-4 text-white" strokeWidth={2} />
                   </div>
                 </div>
@@ -63,7 +63,7 @@ export default function WarmUpGallery() {
           </div>
           <div className="mt-6 text-center">
             <div className="inline-flex items-center gap-2 bg-card/80 px-4 py-2.5 rounded-full border border-border">
-              <div className="w-2 h-2 rounded-full bg-[#e67e22]" />
+              <div className="w-2 h-2 rounded-full bg-[#e49944]" />
               <span className="text-[0.8125rem] text-muted-foreground">
                 <span className="font-semibold text-foreground">{allExercises.length}</span> exercises
               </span>
