@@ -1,6 +1,7 @@
 import { LessonCard } from '../components/LessonCard';
 import { PencilIcon } from '../components/icons/PencilIcon';
 import { AppHeader } from '../components/AppHeader';
+import { BottomNav } from '../components/BottomNav';
 import { useNavigate } from 'react-router';
 import { useCompletedLessons } from '../context/CompletedLessonsContext';
 
@@ -36,6 +37,7 @@ export default function Dashboard() {
 
   return (
     <div className="min-h-screen flex flex-col bg-background text-foreground">
+      <BottomNav />
       <div className="max-w-[800px] mx-auto w-full flex flex-col flex-1 min-h-0">
         <AppHeader
           title="Drawing"
@@ -44,7 +46,7 @@ export default function Dashboard() {
           icon={<PencilIcon className="text-[#e49944]" size={32} />}
         />
 
-        <div className="flex-1 min-h-0 overflow-y-auto px-5 md:px-8 pb-8">
+        <div className="flex-1 min-h-0 overflow-y-auto px-5 md:px-8 pb-24 md:pb-8">
           {/* Progress indicator */}
           <div className="mb-4 px-4 py-3 rounded-xl bg-card border border-border shadow-sm">
             <div className="flex items-center justify-between mb-2">
@@ -68,9 +70,9 @@ export default function Dashboard() {
             )}
           </div>
 
-          <div className="flex flex-wrap justify-center gap-3">
+          <div className="flex flex-col md:flex-row md:flex-wrap md:justify-center gap-3">
             {lessons.map((lesson) => (
-              <div key={lesson.id} className="w-[calc(25%-9px)]">
+              <div key={lesson.id} className="w-full md:w-[calc(25%-9px)]">
                 <LessonCard
                   lessonNumber={lesson.id}
                   imageUrl={lesson.imageUrl}
@@ -80,7 +82,7 @@ export default function Dashboard() {
             ))}
           </div>
 
-          <div className="mt-8 flex flex-col gap-3 max-w-sm mx-auto w-full">
+          <div className="hidden md:flex mt-8 flex-col gap-3 max-w-sm mx-auto w-full">
             <button
               onClick={() => navigate('/warmup')}
               className="w-full h-14 rounded-xl bg-[#e49944] hover:bg-[#c47c20] active:scale-[0.99] text-white font-bold text-[0.875rem] uppercase tracking-[0.06em] transition-all duration-200 flex items-center justify-center gap-2.5 shadow-md hover:shadow-lg"

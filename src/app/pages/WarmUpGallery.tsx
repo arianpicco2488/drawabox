@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router';
 import { Grid3x3 } from 'lucide-react';
 import { AppHeader } from '../components/AppHeader';
+import { BottomNav } from '../components/BottomNav';
 import { ExerciseModal } from '../components/ExerciseModal';
 import { allExercises, type Exercise } from '../data/exercises';
 
@@ -21,6 +22,7 @@ export default function WarmUpGallery() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <BottomNav />
       <div className="max-w-[680px] mx-auto min-h-screen relative">
         <AppHeader
           title="Warm-Up"
@@ -32,7 +34,7 @@ export default function WarmUpGallery() {
           onBack={() => navigate('/')}
         />
 
-        <div className="px-5 md:px-8 pb-10">
+        <div className="px-5 md:px-8 pb-24 md:pb-10">
           <div className="flex flex-wrap justify-center gap-3 md:gap-4">
             {allExercises.map((exercise, index) => (
               <button

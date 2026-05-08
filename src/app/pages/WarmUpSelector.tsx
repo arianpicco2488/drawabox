@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router';
 import { RouletteWheel, type RouletteExercise, type RouletteWheelHandle } from '../components/RouletteWheel';
 import { DrawingCountdown } from '../components/DrawingCountdown';
 import { AppHeader } from '../components/AppHeader';
+import { BottomNav } from '../components/BottomNav';
 import { useCompletedLessons } from '../context/CompletedLessonsContext';
 import { allExercises } from '../data/exercises';
 import { Dialog, DialogContent } from '../components/ui/dialog';
@@ -32,6 +33,7 @@ export default function WarmUpSelector() {
 
   return (
     <div className="min-h-screen bg-background text-foreground">
+      <BottomNav />
       <div className="max-w-[680px] mx-auto min-h-screen">
         <AppHeader
           title="Warm-Up"
@@ -46,7 +48,7 @@ export default function WarmUpSelector() {
           onBack={() => navigate('/')}
         />
 
-        <div className="px-6 pb-8">
+        <div className="px-6 pb-24 md:pb-8">
           {hasCompletedLessons ? (
             <>
               {/* Wheel + right panel side by side */}
