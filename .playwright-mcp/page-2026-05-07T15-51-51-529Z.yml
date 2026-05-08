@@ -1,0 +1,57 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - heading "Drawing Warmups" [level=1] [ref=e9]
+      - button "Switch to dark mode" [active] [ref=e61]:
+        - img [ref=e62]
+    - paragraph [ref=e17]: Complete your daily lessons. Select completed lessons to spin the wheel.
+  - generic [ref=e19]:
+    - generic [ref=e20]:
+      - button "1 Lines, Ellipses and Boxes" [ref=e21]:
+        - generic [ref=e22]:
+          - generic [ref=e23]: "1"
+          - heading "Lines, Ellipses and Boxes" [level=3] [ref=e24]
+          - generic [ref=e25]:
+            - checkbox
+      - button "2 Organic Forms, Dissections and Form Intersection" [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: "2"
+          - heading "Organic Forms, Dissections and Form Intersection" [level=3] [ref=e29]
+          - generic [ref=e30]:
+            - checkbox
+      - button "3 Applying Construction to Plants" [ref=e31]:
+        - generic [ref=e32]:
+          - generic [ref=e33]: "3"
+          - heading "Applying Construction to Plants" [level=3] [ref=e34]
+          - generic [ref=e35]:
+            - checkbox
+      - button "4 Applying Construction to Insects and Arachnids" [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: "4"
+          - heading "Applying Construction to Insects and Arachnids" [level=3] [ref=e39]
+          - generic [ref=e40]:
+            - checkbox
+      - button "5 Applying Construction to Animals" [ref=e41]:
+        - generic [ref=e42]:
+          - generic [ref=e43]: "5"
+          - heading "Applying Construction to Animals" [level=3] [ref=e44]
+          - generic [ref=e45]:
+            - checkbox
+      - button "6 Applying Construction to Everyday Objects" [ref=e46]:
+        - generic [ref=e47]:
+          - generic [ref=e48]: "6"
+          - heading "Applying Construction to Everyday Objects" [level=3] [ref=e49]
+          - generic [ref=e50]:
+            - checkbox
+      - button "7 Applying Construction to Vehicles" [ref=e51]:
+        - generic [ref=e52]:
+          - generic [ref=e53]: "7"
+          - heading "Applying Construction to Vehicles" [level=3] [ref=e54]
+          - generic [ref=e55]:
+            - checkbox
+    - generic [ref=e56]:
+      - button "Warm Up" [ref=e57]:
+        - img [ref=e58]
+        - generic [ref=e59]: Warm Up
+      - button "Warm-Up Gallery" [ref=e60]

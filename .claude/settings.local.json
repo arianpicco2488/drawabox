@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(claude mcp *)",
+      "Bash(npm run *)",
+      "mcp__playwright__browser_navigate",
+      "mcp__playwright__browser_take_screenshot",
+      "mcp__playwright__browser_click",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(firebase deploy *)",
+      "Bash(git push *)",
+      "Bash(python skills/ui-ux-pro-max/scripts/search.py \"art drawing education learning app dashboard\" --design-system -p \"Drawabox\")",
+      "Bash(python .claude/skills/ui-ux-pro-max/scripts/search.py \"art drawing education learning app dashboard\" --design-system -p \"Drawabox\")",
+      "Bash(Start-Sleep -Seconds 3)",
+      "Bash(Get-Content \"C:\\\\Users\\\\User\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-User-Desktop-drawaboxapp-drawaboxdrawboxapp\\\\bf518401-2a16-4fca-98fd-a65df1f3283b\\\\tasks\\\\brcq07k6s.output\")",
+      "Bash(Select-Object -Last 10)",
+      "Bash(npx tsc *)",
+      "Bash(./node_modules/.bin/tsc --noEmit)",
+      "Bash(node_modules/.bin/tsc --noEmit)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173)",
+      "Bash(git rm *)",
+      "Bash(git commit *)",
+      "mcp__playwright__browser_resize",
+      "Bash(python skills/ui-ux-pro-max/scripts/search.py \"mobile app drawing education list navigation bottom-nav\" --design-system -p \"DrawaBox Warmups\")",
+      "Bash(python .claude/skills/ui-ux-pro-max/scripts/search.py \"mobile app drawing education list navigation bottom-nav\" --design-system -p \"DrawaBox Warmups\")",
+      "Bash(Get-ChildItem -Path \"C:\\\\Users\\\\User\\\\Desktop\\\\drawaboxapp\\\\drawaboxdrawboxapp\\\\src\\\\app\" -Directory)",
+      "Bash(Select-Object Name)",
+      "Bash(git checkout *)"
+    ]
+  }
+}

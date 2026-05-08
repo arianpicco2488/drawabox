@@ -1,0 +1,13 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - heading "Your Gallery" [level=1] [ref=e7]
+      - button "Switch to light mode" [ref=e8] [cursor=pointer]:
+        - img [ref=e9]
+    - paragraph [ref=e15]: Upload your drawings to track progress over time
+  - generic [ref=e18] [cursor=pointer]:
+    - img [ref=e19]
+    - generic [ref=e23]:
+      - paragraph [ref=e24]: Upload your first drawing
+      - paragraph [ref=e25]: Start with your Lesson 1 homework to track your progress
+    - paragraph [ref=e26]: JPG, PNG or WebP · drag & drop or click

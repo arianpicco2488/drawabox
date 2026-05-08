@@ -1,0 +1,30 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "Back" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - heading "Warm-Up Selector" [level=1] [ref=e10]
+      - button "Switch to dark mode" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+    - paragraph [ref=e14]: Spin for a random exercise from your completed lessons
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e22]:
+        - paragraph [ref=e24]: Superimposed Lines
+        - paragraph [ref=e26]: Ghosted Lines
+        - paragraph [ref=e28]: Ghosted Planes
+        - paragraph [ref=e30]: Tables of Ellipses
+        - paragraph [ref=e32]: Ellipses in Planes
+        - paragraph [ref=e34]: Funnels
+        - paragraph [ref=e36]: Organic Arrows
+        - paragraph [ref=e38]: Sausages with Contour Lines
+        - paragraph [ref=e40]: Texture Analysis
+        - paragraph [ref=e42]: Dissections
+        - paragraph [ref=e44]: Form Intersections
+        - paragraph [ref=e46]: Organic Intersections
+        - paragraph [ref=e48]: Organic Forms with Contour Curves
+        - generic [ref=e50]:
+          - text: WARM
+          - text: UP
+      - button "Spin the Wheel" [ref=e51]
+    - generic [ref=e56]: 13 exercises from 2 lessons

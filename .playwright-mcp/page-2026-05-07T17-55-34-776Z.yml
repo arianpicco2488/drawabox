@@ -1,0 +1,46 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - heading "Drawing Warmups" [level=1] [ref=e9]
+      - button "Switch to dark mode" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+    - paragraph [ref=e13]: Complete your daily lessons. Select completed lessons to spin the wheel.
+  - generic [ref=e15]:
+    - generic [ref=e17]:
+      - generic [ref=e18]: Progress
+      - generic [ref=e19]: 0 / 7 · 0%
+    - generic [ref=e21]:
+      - button "L1 Lines, Ellipses and Boxes" [ref=e22] [cursor=pointer]:
+        - generic [ref=e25]: L1
+        - img [ref=e27]
+        - heading "Lines, Ellipses and Boxes" [level=3] [ref=e30]
+      - button "L2 Organic Forms, Dissections and Form Intersection" [ref=e31] [cursor=pointer]:
+        - generic [ref=e34]: L2
+        - img [ref=e36]
+        - heading "Organic Forms, Dissections and Form Intersection" [level=3] [ref=e39]
+      - button "L3 Applying Construction to Plants" [ref=e40] [cursor=pointer]:
+        - generic [ref=e43]: L3
+        - img [ref=e45]
+        - heading "Applying Construction to Plants" [level=3] [ref=e48]
+      - button "L4 Applying Construction to Insects and Arachnids" [ref=e49] [cursor=pointer]:
+        - generic [ref=e52]: L4
+        - img [ref=e54]
+        - heading "Applying Construction to Insects and Arachnids" [level=3] [ref=e57]
+      - button "L5 Applying Construction to Animals" [ref=e58] [cursor=pointer]:
+        - generic [ref=e61]: L5
+        - img [ref=e63]
+        - heading "Applying Construction to Animals" [level=3] [ref=e66]
+      - button "L6 Applying Construction to Everyday Objects" [ref=e67] [cursor=pointer]:
+        - generic [ref=e70]: L6
+        - img [ref=e72]
+        - heading "Applying Construction to Everyday Objects" [level=3] [ref=e75]
+      - button "L7 Applying Construction to Vehicles" [ref=e76] [cursor=pointer]:
+        - generic [ref=e79]: L7
+        - img [ref=e81]
+        - heading "Applying Construction to Vehicles" [level=3] [ref=e84]
+    - generic [ref=e85]:
+      - button "Warm Up" [ref=e86]:
+        - img [ref=e87]
+        - generic [ref=e88]: Warm Up
+      - button "Warm-Up Gallery" [ref=e89]

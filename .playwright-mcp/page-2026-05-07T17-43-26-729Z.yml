@@ -1,0 +1,168 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "Back" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - heading "Warm-Up Gallery" [level=1] [ref=e10]
+      - button "Switch to dark mode" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+    - paragraph [ref=e14]: 26 exercises across 7 lessons — tap any to preview
+  - generic [ref=e16]:
+    - generic [ref=e17]:
+      - button "Superimposed Lines L1 Superimposed Lines" [ref=e18]:
+        - img "Superimposed Lines" [ref=e19]
+        - generic [ref=e21]:
+          - generic [ref=e22]: L1
+          - heading "Superimposed Lines" [level=3] [ref=e23]
+        - img [ref=e26]
+      - button "Ghosted Lines L1 Ghosted Lines" [ref=e28]:
+        - img "Ghosted Lines" [ref=e29]
+        - generic [ref=e31]:
+          - generic [ref=e32]: L1
+          - heading "Ghosted Lines" [level=3] [ref=e33]
+        - img [ref=e36]
+      - button "Ghosted Planes L1 Ghosted Planes" [ref=e38]:
+        - img "Ghosted Planes" [ref=e39]
+        - generic [ref=e41]:
+          - generic [ref=e42]: L1
+          - heading "Ghosted Planes" [level=3] [ref=e43]
+        - img [ref=e46]
+      - button "Tables of Ellipses L1 Tables of Ellipses" [ref=e48]:
+        - img "Tables of Ellipses" [ref=e49]
+        - generic [ref=e51]:
+          - generic [ref=e52]: L1
+          - heading "Tables of Ellipses" [level=3] [ref=e53]
+        - img [ref=e56]
+      - button "Ellipses in Planes L1 Ellipses in Planes" [ref=e58]:
+        - img "Ellipses in Planes" [ref=e59]
+        - generic [ref=e61]:
+          - generic [ref=e62]: L1
+          - heading "Ellipses in Planes" [level=3] [ref=e63]
+        - img [ref=e66]
+      - button "Funnels L1 Funnels" [ref=e68]:
+        - img "Funnels" [ref=e69]
+        - generic [ref=e71]:
+          - generic [ref=e72]: L1
+          - heading "Funnels" [level=3] [ref=e73]
+        - img [ref=e76]
+      - button "Organic Arrows L2 Organic Arrows" [ref=e78]:
+        - img "Organic Arrows" [ref=e79]
+        - generic [ref=e81]:
+          - generic [ref=e82]: L2
+          - heading "Organic Arrows" [level=3] [ref=e83]
+        - img [ref=e86]
+      - button "Sausages with Contour Lines L2 Sausages with Contour Lines" [ref=e88]:
+        - img "Sausages with Contour Lines" [ref=e89]
+        - generic [ref=e91]:
+          - generic [ref=e92]: L2
+          - heading "Sausages with Contour Lines" [level=3] [ref=e93]
+        - img [ref=e96]
+      - button "Texture Analysis L2 Texture Analysis" [ref=e98]:
+        - img "Texture Analysis" [ref=e99]
+        - generic [ref=e101]:
+          - generic [ref=e102]: L2
+          - heading "Texture Analysis" [level=3] [ref=e103]
+        - img [ref=e106]
+      - button "Dissections L2 Dissections" [ref=e108]:
+        - img "Dissections" [ref=e109]
+        - generic [ref=e111]:
+          - generic [ref=e112]: L2
+          - heading "Dissections" [level=3] [ref=e113]
+        - img [ref=e116]
+      - button "Form Intersections L2 Form Intersections" [ref=e118]:
+        - img "Form Intersections" [ref=e119]
+        - generic [ref=e121]:
+          - generic [ref=e122]: L2
+          - heading "Form Intersections" [level=3] [ref=e123]
+        - img [ref=e126]
+      - button "Organic Intersections L2 Organic Intersections" [ref=e128]:
+        - img "Organic Intersections" [ref=e129]
+        - generic [ref=e131]:
+          - generic [ref=e132]: L2
+          - heading "Organic Intersections" [level=3] [ref=e133]
+        - img [ref=e136]
+      - button "Organic Forms with Contour Curves L2 Organic Forms with Contour Curves" [ref=e138]:
+        - img "Organic Forms with Contour Curves" [ref=e139]
+        - generic [ref=e141]:
+          - generic [ref=e142]: L2
+          - heading "Organic Forms with Contour Curves" [level=3] [ref=e143]
+        - img [ref=e146]
+      - button "Leaves L3 Leaves" [ref=e148]:
+        - img "Leaves" [ref=e149]
+        - generic [ref=e151]:
+          - generic [ref=e152]: L3
+          - heading "Leaves" [level=3] [ref=e153]
+        - img [ref=e156]
+      - button "Branches L3 Branches" [ref=e158]:
+        - img "Branches" [ref=e159]
+        - generic [ref=e161]:
+          - generic [ref=e162]: L3
+          - heading "Branches" [level=3] [ref=e163]
+        - img [ref=e166]
+      - button "Plant Drawings L3 Plant Drawings" [ref=e168]:
+        - img "Plant Drawings" [ref=e169]
+        - generic [ref=e171]:
+          - generic [ref=e172]: L3
+          - heading "Plant Drawings" [level=3] [ref=e173]
+        - img [ref=e176]
+      - button "Insect Drawings L4 Insect Drawings" [ref=e178]:
+        - img "Insect Drawings" [ref=e179]
+        - generic [ref=e181]:
+          - generic [ref=e182]: L4
+          - heading "Insect Drawings" [level=3] [ref=e183]
+        - img [ref=e186]
+      - button "Arachnid Drawings L4 Arachnid Drawings" [ref=e188]:
+        - img "Arachnid Drawings" [ref=e189]
+        - generic [ref=e191]:
+          - generic [ref=e192]: L4
+          - heading "Arachnid Drawings" [level=3] [ref=e193]
+        - img [ref=e196]
+      - button "Birds L5 Birds" [ref=e198]:
+        - img "Birds" [ref=e199]
+        - generic [ref=e201]:
+          - generic [ref=e202]: L5
+          - heading "Birds" [level=3] [ref=e203]
+        - img [ref=e206]
+      - button "Non-Hooved Quadrupeds L5 Non-Hooved Quadrupeds" [ref=e208]:
+        - img "Non-Hooved Quadrupeds" [ref=e209]
+        - generic [ref=e211]:
+          - generic [ref=e212]: L5
+          - heading "Non-Hooved Quadrupeds" [level=3] [ref=e213]
+        - img [ref=e216]
+      - button "Hooved Quadrupeds L5 Hooved Quadrupeds" [ref=e218]:
+        - img "Hooved Quadrupeds" [ref=e219]
+        - generic [ref=e221]:
+          - generic [ref=e222]: L5
+          - heading "Hooved Quadrupeds" [level=3] [ref=e223]
+        - img [ref=e226]
+      - button "Random Animals of Your Choice L5 Random Animals of Your Choice" [ref=e228]:
+        - img "Random Animals of Your Choice" [ref=e229]
+        - generic [ref=e231]:
+          - generic [ref=e232]: L5
+          - heading "Random Animals of Your Choice" [level=3] [ref=e233]
+        - img [ref=e236]
+      - button "Hybrids L5 Hybrids" [ref=e238]:
+        - img "Hybrids" [ref=e239]
+        - generic [ref=e241]:
+          - generic [ref=e242]: L5
+          - heading "Hybrids" [level=3] [ref=e243]
+        - img [ref=e246]
+      - button "Everyday Objects L6 Everyday Objects" [ref=e248]:
+        - img "Everyday Objects" [ref=e249]
+        - generic [ref=e251]:
+          - generic [ref=e252]: L6
+          - heading "Everyday Objects" [level=3] [ref=e253]
+        - img [ref=e256]
+      - button "Cylinders in Boxes L7 Cylinders in Boxes" [ref=e258]:
+        - img "Cylinders in Boxes" [ref=e259]
+        - generic [ref=e261]:
+          - generic [ref=e262]: L7
+          - heading "Cylinders in Boxes" [level=3] [ref=e263]
+        - img [ref=e266]
+      - button "Vehicles L7 Vehicles" [ref=e268]:
+        - img "Vehicles" [ref=e269]
+        - generic [ref=e271]:
+          - generic [ref=e272]: L7
+          - heading "Vehicles" [level=3] [ref=e273]
+        - img [ref=e276]
+    - generic [ref=e281]: 26 exercises

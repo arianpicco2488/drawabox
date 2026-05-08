@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router";
 import Dashboard from "./pages/Dashboard";
 import WarmUpSelector from "./pages/WarmUpSelector";
 import WarmUpGallery from "./pages/WarmUpGallery";
+import Drawings from "./pages/Drawings";
 
 export const router = createBrowserRouter([
   {
@@ -15,5 +16,9 @@ export const router = createBrowserRouter([
   {
     path: "/gallery",
     Component: WarmUpGallery,
+  },
+  {
+    path: "/drawings",
+    Component: Drawings,
   },
 ]);

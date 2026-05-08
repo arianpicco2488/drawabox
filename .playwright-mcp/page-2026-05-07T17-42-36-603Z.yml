@@ -1,0 +1,31 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "Back" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - heading "Warm-Up Selector" [level=1] [ref=e10]
+      - button "Switch to dark mode" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+    - paragraph [ref=e14]: Spin for a random exercise from your completed lessons
+  - generic [ref=e17]:
+    - generic [ref=e23]:
+      - paragraph [ref=e25]: Organic Arrows
+      - paragraph [ref=e27]: Sausages with Contour Lines
+      - paragraph [ref=e29]: Texture Analysis
+      - paragraph [ref=e31]: Dissections
+      - paragraph [ref=e33]: Form Intersections
+      - paragraph [ref=e35]: Organic Intersections
+      - paragraph [ref=e37]: Organic Forms with Contour Curves
+      - paragraph [ref=e39]: Leaves
+      - paragraph [ref=e41]: Branches
+      - paragraph [ref=e43]: Plant Drawings
+      - paragraph [ref=e45]: Everyday Objects
+      - generic [ref=e47]:
+        - text: WARM
+        - text: UP
+    - generic [ref=e48]:
+      - generic [ref=e51]: 11 exercises from 3 lessons
+      - generic [ref=e52]:
+        - paragraph [ref=e53]: Selected exercise
+        - paragraph [ref=e54]: Spin the wheel to find out…
+      - button "Spin the Wheel" [ref=e55]

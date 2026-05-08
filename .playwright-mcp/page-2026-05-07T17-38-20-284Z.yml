@@ -1,0 +1,18 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - button "Back" [ref=e7] [cursor=pointer]:
+        - img [ref=e8]
+      - heading "Warm-Up Selector" [level=1] [ref=e10]
+      - button "Switch to dark mode" [ref=e11] [cursor=pointer]:
+        - img [ref=e12]
+    - paragraph [ref=e14]: Spin for a random exercise from your completed lessons
+  - generic [ref=e16]:
+    - generic [ref=e18]:
+      - generic [ref=e22]:
+        - paragraph [ref=e24]: Everyday Objects
+        - generic [ref=e26]:
+          - text: WARM
+          - text: UP
+      - button "Spin the Wheel" [ref=e27]
+    - generic [ref=e32]: 1 exercises from 1 lesson

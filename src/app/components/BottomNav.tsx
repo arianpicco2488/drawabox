@@ -1,10 +1,11 @@
 import { useLocation, useNavigate } from 'react-router';
-import { Home, Dices, Grid3x3 } from 'lucide-react';
+import { Home, Dices, Grid3x3, ImagePlus } from 'lucide-react';
 
 const TABS = [
   { path: '/', icon: Home, label: 'Lessons' },
   { path: '/warmup', icon: Dices, label: 'Warm Up' },
   { path: '/gallery', icon: Grid3x3, label: 'Gallery' },
+  { path: '/drawings', icon: ImagePlus, label: 'My Work' },
 ];
 
 export function BottomNav() {

@@ -1,0 +1,48 @@
+- generic [ref=e4]:
+  - banner [ref=e5]:
+    - generic [ref=e6]:
+      - img [ref=e8]
+      - heading "Drawing Warmups" [level=1] [ref=e9]
+      - button "Switch to dark mode" [ref=e10] [cursor=pointer]:
+        - img [ref=e11]
+    - paragraph [ref=e13]: Complete your daily lessons. Select completed lessons to spin the wheel.
+  - generic [ref=e15]:
+    - generic [ref=e16]:
+      - generic [ref=e17]:
+        - generic [ref=e18]: Progress
+        - generic [ref=e19]: 7 / 7 · 100%
+      - paragraph [ref=e22]: All lessons complete — ready to warm up!
+    - generic [ref=e23]:
+      - button "L1 Lines, Ellipses and Boxes" [ref=e25] [cursor=pointer]:
+        - generic [ref=e29]: L1
+        - img [ref=e31]
+        - heading "Lines, Ellipses and Boxes" [level=3] [ref=e34]
+      - button "L2 Organic Forms, Dissections and Form Intersection" [ref=e36] [cursor=pointer]:
+        - generic [ref=e40]: L2
+        - img [ref=e42]
+        - heading "Organic Forms, Dissections and Form Intersection" [level=3] [ref=e45]
+      - button "L3 Applying Construction to Plants" [ref=e47] [cursor=pointer]:
+        - generic [ref=e51]: L3
+        - img [ref=e53]
+        - heading "Applying Construction to Plants" [level=3] [ref=e56]
+      - button "L4 Applying Construction to Insects and Arachnids" [ref=e58] [cursor=pointer]:
+        - generic [ref=e62]: L4
+        - img [ref=e64]
+        - heading "Applying Construction to Insects and Arachnids" [level=3] [ref=e67]
+      - button "L5 Applying Construction to Animals" [ref=e69] [cursor=pointer]:
+        - generic [ref=e73]: L5
+        - img [ref=e75]
+        - heading "Applying Construction to Animals" [level=3] [ref=e78]
+      - button "L6 Applying Construction to Everyday Objects" [ref=e80] [cursor=pointer]:
+        - generic [ref=e84]: L6
+        - img [ref=e86]
+        - heading "Applying Construction to Everyday Objects" [level=3] [ref=e89]
+      - button "L7 Applying Construction to Vehicles" [ref=e91] [cursor=pointer]:
+        - generic [ref=e95]: L7
+        - img [ref=e97]
+        - heading "Applying Construction to Vehicles" [level=3] [ref=e100]
+    - generic [ref=e101]:
+      - button "Warm Up" [ref=e102]:
+        - img [ref=e103]
+        - generic [ref=e104]: Warm Up
+      - button "Warm-Up Gallery" [ref=e105]
