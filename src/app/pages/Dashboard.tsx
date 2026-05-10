@@ -13,9 +13,13 @@ import L5Img from '../../Lessons-img/L5.jpg';
 import L6Img from '../../Lessons-img/L6.jpg';
 import L7Img from '../../Lessons-img/L7.jpg';
 import L250Img from '../../Lessons-img/250-boxes.jpg';
+import L100ChestImg from '../../Lessons-img/100-chest.jpg';
+import LWheelImg from '../../Lessons-img/wheel-challenge.jpg';
+import LTextureImg from '../../Lessons-img/texture-analysis.jpg';
+import L250CylImg from '../../Lessons-img/250-cylinder.jpg';
 
-const LESSON_IMAGES = [L1Img, L2Img, L3Img, L4Img, L5Img, L6Img, L7Img, L250Img] as const;
-const TOTAL_LESSONS = 8;
+const LESSON_IMAGES = [L1Img, L2Img, L3Img, L4Img, L5Img, L6Img, L7Img, L250Img, L100ChestImg, LWheelImg, LTextureImg, L250CylImg] as const;
+const TOTAL_LESSONS = 12;
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -32,6 +36,10 @@ export default function Dashboard() {
     { id: 6, title: 'Applying Construction to Everyday Objects' },
     { id: 7, title: 'Applying Construction to Vehicles' },
     { id: 8, title: '250 Boxes Challenge' },
+    { id: 9, title: '100 Chest' },
+    { id: 10, title: 'Wheel Challenge' },
+    { id: 11, title: 'Texture Analysis' },
+    { id: 12, title: '250 Cylinder Challenge' },
   ].map((lesson) => ({
     ...lesson,
     imageUrl: LESSON_IMAGES[lesson.id - 1],

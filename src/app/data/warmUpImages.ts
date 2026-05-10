@@ -8,10 +8,19 @@ const imageModules = import.meta.glob<string>(
   { query: '?url', import: 'default', eager: true }
 );
 
+const lessonImageModules = import.meta.glob<string>(
+  '/src/Lessons-img/*.{jpg,jpeg}',
+  { query: '?url', import: 'default', eager: true }
+);
+
 function getImageUrl(filename: string): string | undefined {
   const key = `/src/Lessons-img/warm-up-img/${filename}`;
   const withSpace = `/src/Lessons-img/warm-up-img/ ${filename}`;
   return (imageModules[key] ?? imageModules[withSpace]) as string | undefined;
+}
+
+function getLessonImageUrl(filename: string): string | undefined {
+  return lessonImageModules[`/src/Lessons-img/${filename}`] as string | undefined;
 }
 
 /** Map exercise name (as in allExercises) to local warm-up image URL. */
@@ -44,4 +53,7 @@ export const warmUpImageByExerciseName: Record<string, string> = {
   'Cylinders in Boxes': getImageUrl('cylinders in boxes.jpg')!,
   'Vehicles': getImageUrl('vehicles.jpg')!,
   '250 Boxes Challenge': getImageUrl('250-boxes.jpg')!,
+  '100 Chest': getLessonImageUrl('100-chest.jpg')!,
+  'Wheel Challenge': getLessonImageUrl('wheel-challenge.jpg')!,
+  '250 Cylinder Challenge': getImageUrl('250-cylinder.jpg')!,
 };

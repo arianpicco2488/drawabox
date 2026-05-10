@@ -201,6 +201,34 @@ const baseExercises: Exercise[] = [
     lesson: 8,
     description: 'Draw 250 boxes in 3-point perspective to build a strong intuitive sense of form and space.',
     imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  // 100 Chest
+  {
+    name: '100 Chest',
+    lesson: 9,
+    description: 'Draw 100 chests using construction techniques to master complex organic and hard-surface forms.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  // Wheel Challenge
+  {
+    name: 'Wheel Challenge',
+    lesson: 10,
+    description: 'Construct wheels of varying complexity, applying ellipses and spoke construction from reference.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  // Texture Analysis
+  {
+    name: 'Texture Analysis',
+    lesson: 11,
+    description: 'Closely observe and render textures from reference, focusing on implicit detail over outlining.',
+    imageUrl: 'https://images.unsplash.com/photo-1770284254752-e5fec40e964b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0ZXh0dXJlJTIwc3VyZmFjZSUyMG1hY3JvfGVufDF8fHx8MTc3MjgwNzQ5M3ww&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  // 250 Cylinder Challenge
+  {
+    name: '250 Cylinder Challenge',
+    lesson: 12,
+    description: 'Draw 250 cylinders, checking minor axes alignment to sharpen ellipse and perspective accuracy.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
   }
 ];
 
