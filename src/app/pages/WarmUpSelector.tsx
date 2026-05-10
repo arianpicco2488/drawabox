@@ -2,6 +2,7 @@ import { useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router';
 import { RouletteWheel, type RouletteExercise, type RouletteWheelHandle } from '../components/RouletteWheel';
 import { DrawingCountdown } from '../components/DrawingCountdown';
+import { DrawingCounter } from '../components/DrawingCounter';
 import { AppHeader } from '../components/AppHeader';
 import { BottomNav } from '../components/BottomNav';
 import { useCompletedLessons } from '../context/CompletedLessonsContext';
@@ -30,6 +31,12 @@ export default function WarmUpSelector() {
   }, [completedLessonIds]);
 
   const hasCompletedLessons = wheelExercises.length > 0;
+
+  const drawingTarget = useMemo(() => {
+    if (!selectedExercise) return null;
+    const match = selectedExercise.name.match(/^(\d+)/);
+    return match ? parseInt(match[1], 10) : null;
+  }, [selectedExercise]);
 
   return (
     <div className="min-h-screen bg-background text-foreground">
@@ -174,7 +181,11 @@ export default function WarmUpSelector() {
       <Dialog open={showCountdown} onOpenChange={(open) => !open && setShowCountdown(false)}>
         <DialogContent className="bg-card border border-border text-foreground max-w-sm mx-4 md:mx-auto rounded-2xl shadow-xl">
           <div className="py-8">
-            <DrawingCountdown onComplete={() => setShowCountdown(false)} />
+            {drawingTarget !== null ? (
+              <DrawingCounter target={drawingTarget} onComplete={() => setShowCountdown(false)} />
+            ) : (
+              <DrawingCountdown onComplete={() => setShowCountdown(false)} />
+            )}
           </div>
         </DialogContent>
       </Dialog>

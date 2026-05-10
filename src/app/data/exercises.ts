@@ -199,14 +199,14 @@ const baseExercises: Exercise[] = [
   {
     name: '250 Boxes Challenge',
     lesson: 8,
-    description: 'Draw 250 boxes in 3-point perspective to build a strong intuitive sense of form and space.',
+    description: 'Work toward 250 boxes in 3-point perspective. Track how many you complete each session.',
     imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
   },
   // 100 Chest
   {
     name: '100 Chest',
     lesson: 9,
-    description: 'Draw 100 chests using construction techniques to master complex organic and hard-surface forms.',
+    description: 'Work toward 100 chest constructions. Track how many you complete each session.',
     imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
   },
   // Wheel Challenge
@@ -227,7 +227,7 @@ const baseExercises: Exercise[] = [
   {
     name: '250 Cylinder Challenge',
     lesson: 12,
-    description: 'Draw 250 cylinders, checking minor axes alignment to sharpen ellipse and perspective accuracy.',
+    description: 'Work toward 250 cylinders. Check the minor axis alignment on each one and track your progress each session.',
     imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
   }
 ];
