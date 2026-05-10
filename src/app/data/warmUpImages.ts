@@ -22,6 +22,10 @@ export const warmUpImageByExerciseName: Record<string, string> = {
   'Tables of Ellipses': getImageUrl('Tables of Ellipses.jpg')!,
   'Ellipses in Planes': getImageUrl('Ellipses in Planes.jpg')!,
   'Funnels': getImageUrl('Funnels.jpg')!,
+  'Plotted Perspective': getImageUrl('plotted-perspective.jpg')!,
+  'Rough Perspective': getImageUrl('rough-perspective.jpg')!,
+  'Rotated Boxes': getImageUrl('rotated-boxed.jpg')!,
+  'Organic Perspective': getImageUrl('organic-perspective.jpg')!,
   'Organic Arrows': getImageUrl('Organic Arrows.jpg')!,
   'Sausages with Contour Lines': getImageUrl('Sausages with Contour Lines.jpg')!,
   'Texture Analysis': getImageUrl('Texture Analysis.jpg')!,
@@ -39,4 +43,5 @@ export const warmUpImageByExerciseName: Record<string, string> = {
   'Everyday Objects': getImageUrl('everyday objects.jpg')!,
   'Cylinders in Boxes': getImageUrl('cylinders in boxes.jpg')!,
   'Vehicles': getImageUrl('vehicles.jpg')!,
+  '250 Boxes Challenge': getImageUrl('250-boxes.jpg')!,
 };

@@ -12,9 +12,10 @@ import L4Img from '../../Lessons-img/L4.jpg';
 import L5Img from '../../Lessons-img/L5.jpg';
 import L6Img from '../../Lessons-img/L6.jpg';
 import L7Img from '../../Lessons-img/L7.jpg';
+import L250Img from '../../Lessons-img/250-boxes.jpg';
 
-const LESSON_IMAGES = [L1Img, L2Img, L3Img, L4Img, L5Img, L6Img, L7Img] as const;
-const TOTAL_LESSONS = 7;
+const LESSON_IMAGES = [L1Img, L2Img, L3Img, L4Img, L5Img, L6Img, L7Img, L250Img] as const;
+const TOTAL_LESSONS = 8;
 
 export default function Dashboard() {
   const navigate = useNavigate();
@@ -30,6 +31,7 @@ export default function Dashboard() {
     { id: 5, title: 'Applying Construction to Animals' },
     { id: 6, title: 'Applying Construction to Everyday Objects' },
     { id: 7, title: 'Applying Construction to Vehicles' },
+    { id: 8, title: '250 Boxes Challenge' },
   ].map((lesson) => ({
     ...lesson,
     imageUrl: LESSON_IMAGES[lesson.id - 1],

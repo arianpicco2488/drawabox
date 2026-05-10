@@ -45,6 +45,30 @@ const baseExercises: Exercise[] = [
     description: 'Practice drawing ellipses of varying degrees aligned to a central minor axis.',
     imageUrl: 'https://images.unsplash.com/photo-1624398891398-fbb14f1acc11?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjaXJjdWxhciUyMGZvcm1zJTIwZWxsaXBzZXN8ZW58MXx8fHwxNzcyODA3NDkyfDA&ixlib=rb-4.1.0&q=80&w=1080'
   },
+  {
+    name: 'Plotted Perspective',
+    lesson: 1,
+    description: 'Construct boxes in 1- and 2-point perspective using plotted vanishing points for accuracy.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  {
+    name: 'Rough Perspective',
+    lesson: 1,
+    description: 'Draw boxes in 1-point perspective freehand, estimating convergence to the vanishing point.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  {
+    name: 'Rotated Boxes',
+    lesson: 1,
+    description: 'Draw a grid of boxes rotating in 3D space, using neighboring boxes as alignment guides.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  {
+    name: 'Organic Perspective',
+    lesson: 1,
+    description: 'Draw organic boxes flowing through space along a sweeping curve to practice dynamic perspective.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
   // Lesson 2
   {
     name: 'Organic Arrows',
@@ -170,6 +194,13 @@ const baseExercises: Exercise[] = [
     lesson: 7,
     description: 'Apply all construction techniques to draw various vehicles and machinery.',
     imageUrl: 'https://images.unsplash.com/photo-1764122623556-90a7d480df53?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjB2ZWhpY2xlJTIwbWVjaGFuaWNhbHxlbnwxfHx8fDE3NzI4MDc0OTh8MA&ixlib=rb-4.1.0&q=80&w=1080'
+  },
+  // 250 Boxes Challenge
+  {
+    name: '250 Boxes Challenge',
+    lesson: 8,
+    description: 'Draw 250 boxes in 3-point perspective to build a strong intuitive sense of form and space.',
+    imageUrl: 'https://images.unsplash.com/photo-1727522974599-0e4a9c2a5a73?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxnZW9tZXRyaWMlMjBwZXJzcGVjdGl2ZSUyMGJveGVzJTIwZHJhd2luZ3xlbnwxfHx8fDE3NzI4MDc0OTJ8MA&ixlib=rb-4.1.0&q=80&w=1080'
   }
 ];
 
